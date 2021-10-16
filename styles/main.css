@@ -1,0 +1,21 @@
+body {
+	overflow: hidden;
+}
+
+.sm-display-none, .sm-display-block, .sm-display-flex {
+	display: inherit;
+}
+
+@media screen and (max-width: 732px) {
+	.sm-display-none {
+		display: none;
+	}
+
+	.sm-display-block {
+		display: block;
+	}
+
+	.sm-display-flex {
+		display: flex;
+	}
+}

@@ -1,0 +1,20 @@
+.logo {
+	height: 25vh;
+	width: 25vh;
+}
+
+.inclinado {
+	background-color: aquamarine;
+	box-shadow: -8px 0px 0px 0px #37c0a9, -16px 0px 0px 0px #138496;
+	height: 100vh;
+	left: 0;
+	position: absolute;
+	top: 0;
+	transform: skew(15deg);
+	width: 100vw;
+	z-index: -100;
+}
+
+.maxw-300 {
+	max-width: 300px;
+}
